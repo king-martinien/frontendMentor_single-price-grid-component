@@ -1,0 +1,45 @@
+.card {
+  padding: 25px;
+  color: var(--clr-white);
+
+  &.card-1 {
+    background-color: var(--clr-white);
+
+    .card__title {
+      color: var(--clr-cyan);
+    }
+
+    .card__subtitle {
+      color: var(--clr-bright-Yellow);
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .card__text {
+      color: var(--clr-grayish-blue);
+    }
+  }
+  &.card-2 {
+    background-color: var(--clr-cyan);
+  }
+  &.card-3 {
+    background-color: var(--clr-cyan);
+    color: var(--clr-white);
+    opacity: 0.8;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  &__btn {
+    background-color: var(--clr-bright-Yellow);
+    color: var(--clr-white);
+    font-weight: 700;
+  }
+}

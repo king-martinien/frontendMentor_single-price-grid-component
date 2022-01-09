@@ -1,0 +1,36 @@
+:root {
+  --clr-cyan: hsl(179, 62%, 43%);
+  --clr-bright-Yellow: hsl(71, 73%, 54%);
+  --clr-light-gray: hsl(204, 43%, 93%);
+  --clr-grayish-blue: hsl(218, 22%, 67%);
+  --clr-white: hsl(255, 100%, 100%);
+
+  --size: 16px;
+
+  --familyKarla: Karla, "sans-serif";
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  font-size: var(--size);
+  font-family: var(--familyKarla);
+  background-color: var(--clr-light-gray);
+}
+
+button {
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+}
