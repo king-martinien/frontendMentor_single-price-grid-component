@@ -1,13 +1,31 @@
 #main {
   margin-bottom: 10px;
 
+
+
   .cards {
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    @media screen and (min-width: 650px) {
+      width: 620px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      .card-1 {
+        grid-column: 1 / span 3;
+      }
+    }
   }
 }
 
 #footer {
   text-align: center;
+
+  .attribution {
+    a {
+      color: var(--clr-cyan);
+    }
+  }
 }
